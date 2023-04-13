@@ -8,7 +8,10 @@ const TodoListItem = (props) => {
 
   return (
     <div className={`list-item-card ${priority}`}>
-      {isChecked ? <img src={tickCheckbox} onClick={() => setChecked(false)} /> : <div className="empty-checkbox" onClick={() => setChecked(true)} />}
+      {isChecked
+        ? <img src={tickCheckbox} onClick={() => setChecked(false)} />
+        : <div className="empty-checkbox" onClick={() => setChecked(true)} />
+      }
       <span className={`list-item-title ${isChecked && 'strike'}`}>{title}</span>
     </div>
   );
