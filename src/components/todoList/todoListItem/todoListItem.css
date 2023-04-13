@@ -1,0 +1,38 @@
+.list-item-card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #444;
+  margin-bottom: 12px;
+
+  display: flex;
+
+}
+
+.list-item-card.high {
+  border-left: 6px solid #E01717;
+}
+
+.list-item-card.medium {
+  border-left: 6px solid #FFA800;
+}
+
+.list-item-card.low {
+  border-left: 6px solid #44B400;
+}
+
+.list-item-title {
+  margin-left: 25px;
+}
+
+.list-item-title.strike {
+  text-decoration: line-through;
+}
+
+.empty-checkbox {
+  border: 1px solid #444;
+  border-radius: 5px;
+  height: 18px;
+  width: 18px;
+  margin-left: 2px;
+}
